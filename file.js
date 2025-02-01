@@ -1,9 +1,9 @@
 const fs = require("fs");
 
-// Synchronous
+// Synchronous -Blocking operation
 // fs.writeFileSync("./test.txt","hey there");
 
-// Asynchronous
+// Asynchronous - non blocking operation
 // fs.writeFile("./test.txt","hey Anand",(err)=>{});
 
 // const result = fs.readFileSync("./contact.txt","utf-8");
@@ -30,4 +30,6 @@ const fs = require("fs");
 // console.log(fs.statSync("./contact.txt").isFile());
 
 // create folder
-fs.mkdirSync("my-docs/")
+// fs.mkdirSync("my-docs/")
+
+// fs.mkdirSync("my-docss/a/b",{recursive:true})
